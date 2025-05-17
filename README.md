@@ -1,5 +1,6 @@
 # tf-ec2-bluegreen
 
+
 ## Task 1: Understand the architecture
 - Given this terraform configs, and a choosen VPC, draw the architecture diagram.
 - Diagram should include the various components (e.g. Internet Gateway, NAT Gateways, Load Balancers, EC2 Instances). 
