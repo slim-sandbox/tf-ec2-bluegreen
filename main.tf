@@ -25,7 +25,7 @@ data "aws_subnets" "private" {
 }
 
 resource "aws_security_group" "alb" {
-  name        = "${var.name}-alb-dev1"
+  name        = "${var.name}-alb"
   description = "Allow public traffic to alb new description"
   vpc_id      = data.aws_vpc.selected.id
 
